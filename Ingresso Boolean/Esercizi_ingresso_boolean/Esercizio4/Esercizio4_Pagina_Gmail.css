@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  }
+
+
+#Contenitore_Padre{
+    margin: auto;
+    width: 800px;
+}
+
+#Immagine_Logo{
+    width: 20%;
+}
+
+header{
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+}
+
+.Stile_Logo{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Cerchio{
+    border-radius: 50%;
+    background: lightcoral;
+}
+
+.Oggetto{
+    width: 30%;
+    display: inline-block;
+}
+
+.Testo_Mail{
+    width: 63%;
+    display: inline-block;
+    color: lightslategray;
+}
+
+.Linea_Mail_Non_Lette{
+    border:1px solid black;
+    background-color: lightgray;
+}
+
+.Linea_Mail_Lette{
+    border:1px solid black;
+    background-color: aliceblue;
+}
+
+main{
+    border-bottom: 1px solid white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+#Creato_Da{
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    
+  }
+  

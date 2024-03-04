@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+
+        <!--Premessa Pagina-->
+        <div>
+            <h1>Adotta il tuo animale...</h1>
+        </div>
+        <div>
+            <strong><em>Compila il form per adottare!</em></strong>
+        </div>
+        
+        <!--FORM da compilare dall'utente-->
+        <form action="Esercizio2_Adotta_il_tuo_animale.html" method="post">
+            
+            <!--Nome/Cognome-->
+            <div>
+                <input type="text" placeholder="Inserisci Nome" minlength="3" maxlength="10" name="nome" required>
+            </div>
+            <div>
+                <input type="text" placeholder="Inserisci Cognome" minlength="3" maxlength="10" name="cognome" required>
+            </div>
+            
+            <!--Email-->
+            <div>        
+                <input type="email" placeholder="Inserisci Email valida" name="email" required>
+            </div>
+            
+            <!--Password-->
+            <div>
+                <input type="password" placeholder="Inserisci Password valida" minlength="2" maxlength="13" name="password" required>
+            </div>
+            
+            <!--Scelta Animale-->
+            <div>
+                <select name="animale_scelto">
+                    <option value="cane">Cane</option>
+                    <option value="gatto">Gatto</option>
+                    <option value="cavallo">Cavallo</option>
+                    <option value="giraffa">Giraffa</option>
+                </select>
+            </div>
+            
+            <!--Maggiorenne o Minorenne-->
+            <div>
+                <input type="radio" name="età" value="maggiorenne" required> <span>+18</span>
+                <input type="radio" name="età" value="minorenne" required> <span>-18</span>
+            </div>
+            
+            <!--Termini e condizioni-->
+            <div>
+                <input type="checkbox" value="termini_e_condizioni" required> <span>Accetto i Termini e condizioni</span>
+            </div>
+
+            <!--Tasto SUBMIT-->
+            <div>
+                <input type="submit" value="Adotta Subito">
+            </div>
+        </form>
+    </body>
+</html>

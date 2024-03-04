@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#Contenitore_Padre{
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+    
+}
+
+.Logo_Azienda{
+    width: 20%;
+    margin-top: 30px;
+    }
+
+.Stile_Scritte{
+    color: chartreuse;
+}
+
+nav{
+    text-align: center;
+    background-color: chartreuse;
+    height: 37px;
+    padding: 7px;
+    
+
+}
+
+.Sezioni{
+margin: 20px;
+
+}
+
+.Importanza_1{
+    color: white;
+    display: block;
+    font-size: 24px;
+}
+
+.Importanza_2{
+    display: block;
+    color: white;
+}
+
+.Importanza_3{
+    display: block;
+    color: white;
+    font-size: 10px;
+}
+
+#Monopattino_1{
+    background-color: red;
+    height: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+#Monopattino_2{
+    background-color: greenyellow;
+    height: 20px;
+    border-radius: 10px;
+    width: 90%;
+}
+#Monopattino_3{
+    background-color: yellow;
+    height: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+    

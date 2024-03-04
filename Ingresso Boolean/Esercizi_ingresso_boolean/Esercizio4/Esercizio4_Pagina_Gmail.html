@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng>">
+    <head>
+        <title>Prima Pagina Gmail</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Esercizio4_Pagina_Gmail.css">
+        <!--Font di google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Questo div sarà il contenitore principale di tutto-->
+        <div id="Contenitore_Padre">
+            <!--Contenitore -->
+            <header>
+                <img id="Immagine_Logo"  src="data:image/png;base64,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">
+                <span class="Stile_Logo">Gmail<span>
+            </header>
+
+            <main>
+                <!--Barra Ricerca Mail-->
+                <section>
+                    <form action="Esercizio4_Pagina_Gmail.html" method="post">
+                        <input type="search" placeholder="Cerca...">
+                        <input type="submit" value="VAI">
+                    </form>
+                    
+                    <div class="Stile_Logo">You have <span id="Cerchio">30</span> unread</div>
+                </section>
+
+                <section>
+                    <!--Questa è una Riga di una mail-->
+                    <div class="Linea_Mail_Non_Lette">
+                        <input type="checkbox">
+                        
+                        <span class="Oggetto">★ Questo è l'oggetto lungo lungo</span>
+
+                        <span class="Testo_Mail">Questo è il messaggio molto molto molto molto molto</span>
+                    </div>
+
+                    <div class="Linea_Mail_Lette">
+                        <input type="checkbox">
+                        
+                        <span class="Oggetto">★ Questo è l'oggetto</span>
+
+                        <span class="Testo_Mail">Questo è il messaggio </span>
+                    </div>
+            
+                    <div class="Linea_Mail_Non_Lette">
+                        <input type="checkbox">
+                        
+                        <span class="Oggetto">★ Questo è l'oggetto</span>
+
+                        <span class="Testo_Mail">Questo è il messaggio </span>
+                    </div>
+
+                    <div class="Linea_Mail_Lette">
+                        <input type="checkbox">
+                        
+                        <span class="Oggetto">★ Questo è l'oggetto</span>
+
+                        <span class="Testo_Mail">Questo è il messaggio </span>
+                    </div>
+
+                    <div class="Linea_Mail_Non_Lette">
+                        <input type="checkbox">
+                        
+                        <span class="Oggetto">★ Questo è l'oggetto lungo lungo</span>
+
+                        <span class="Testo_Mail">Questo è il messaggio molto molto molto molto molto</span>
+                    </div>
+
+                </section>                
+            </main>
+
+    
+            <footer>
+                <span id="Logo_2">GMail</span>
+
+                <span id="Creato_Da">Powered by Matti00096</span>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+/*Mettere al centro e cambiare colore sfondo*/
+header {
+    text-align: center;
+    background-color: darkorange;
+}
+
+/*Cambiare grandezza immagine*/
+#Foto_Luffy {
+    width: 140px;
+    height: 150px;
+}
+
+/*Cambiare formato delle hr*/
+hr{
+    height: 3px;
+    border-color: darkred;
+    background-color: darkred;
+}
+
+/*Cambiare colore al Titolo delle sezioni*/
+.titolo_sezioni{
+    color:coral
+}
+
+/*Spostare margine del main*/
+main{
+    padding: 8px;
+}
